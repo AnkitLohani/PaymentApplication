@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration.FileExtensions;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using PaymentApp.Service;
+using PaymentApp.BusinessLogic;
 
 namespace PaymentApp.TestProject
 {
