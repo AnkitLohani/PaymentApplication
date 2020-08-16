@@ -23,6 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentApp.Service", "Payme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentApp.TestProject", "PaymentApp.TestProject\PaymentApp.TestProject.csproj", "{562F014D-BEEB-454C-909F-715378FA60BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{C521E96A-6E4C-487B-8A10-55A03B985440}"
+	ProjectSection(SolutionItems) = preProject
+		Slip.html = Slip.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +68,7 @@ Global
 		{342B5193-AFDB-430D-8185-F210127E0D33} = {864912EB-9222-4D0D-A4D5-4ADC2A6FA5CE}
 		{083CA786-6B33-4A3C-ABBE-E357F705C2AF} = {4FDBE3D4-3766-4442-9B58-8C9F3EB38AD7}
 		{562F014D-BEEB-454C-909F-715378FA60BB} = {9B20037D-BCA8-4AF5-B87A-D04E0A51FF11}
+		{C521E96A-6E4C-487B-8A10-55A03B985440} = {4EE62FC0-A042-46AC-A906-AAE793C390FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {658FBC93-0761-4263-8D35-DB7C128AF35E}
