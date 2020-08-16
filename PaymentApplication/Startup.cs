@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PaymentApp.BusinessLogic;
+using PaymentApp.BusinessLogic.BusinessLogicInterface;
+using PaymentApp.Service;
+using PaymentApp.Service.ServiceInterfaces;
 
 namespace PaymentApplication
 {
@@ -16,6 +20,9 @@ namespace PaymentApplication
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+            services.AddSingleton(typeof(IPaymentService), typeof(PaymentService));
+            services.AddSingleton(typeof(IPaymentBusinessLogic), typeof(PaymentBusinessLogic));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
