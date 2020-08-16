@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PaymentApp.models;
+using PaymentApp.Service;
 using PaymentApp.Service.ServiceInterfaces;
 using System;
 using System.Collections.Generic;

@@ -1,11 +1,12 @@
-﻿using PaymentApp.models;
+﻿using PaymentApp.BusinessLogic.BusinessLogicInterface;
+using PaymentApp.models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace PaymentApp.BusinessLogic
 {
-    public class PaymentBusinessLogic
+    public class PaymentBusinessLogic :IPaymentBusinessLogic
     {
         public bool GeneratePackingSlip(Payment payment)
         {
@@ -62,5 +63,9 @@ namespace PaymentApp.BusinessLogic
 
         }
 
+        public bool AddFirstaidVideo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
