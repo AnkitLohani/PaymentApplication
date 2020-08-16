@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentApplication", "PaymentApplication\PaymentApplication.csproj", "{3B39F91D-90E1-4E94-B9FE-94C4BD9D50A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentApp", "PaymentApp", "{4EE62FC0-A042-46AC-A906-AAE793C390FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{864912EB-9222-4D0D-A4D5-4ADC2A6FA5CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessService", "BusinessService", "{4FDBE3D4-3766-4442-9B58-8C9F3EB38AD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentApp.test", "PaymentApp.test", "{9B20037D-BCA8-4AF5-B87A-D04E0A51FF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment.model", "Payment.model", "{2AA5F166-B413-45EB-97E3-DDC3D2974090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +28,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B39F91D-90E1-4E94-B9FE-94C4BD9D50A7} = {4EE62FC0-A042-46AC-A906-AAE793C390FE}
+		{864912EB-9222-4D0D-A4D5-4ADC2A6FA5CE} = {4EE62FC0-A042-46AC-A906-AAE793C390FE}
+		{4FDBE3D4-3766-4442-9B58-8C9F3EB38AD7} = {4EE62FC0-A042-46AC-A906-AAE793C390FE}
+		{9B20037D-BCA8-4AF5-B87A-D04E0A51FF11} = {4EE62FC0-A042-46AC-A906-AAE793C390FE}
+		{2AA5F166-B413-45EB-97E3-DDC3D2974090} = {4EE62FC0-A042-46AC-A906-AAE793C390FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {658FBC93-0761-4263-8D35-DB7C128AF35E}
