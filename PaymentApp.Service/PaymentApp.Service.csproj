@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PaymentApp.BusinessLogic\PaymentApp.BusinessLogic.csproj" />
     <ProjectReference Include="..\PaymentApp.models\PaymentApp.models.csproj" />
   </ItemGroup>
 
